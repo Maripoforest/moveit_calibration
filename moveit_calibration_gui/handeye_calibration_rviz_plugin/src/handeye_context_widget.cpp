@@ -58,7 +58,8 @@ void TFFrameNameComboBox::mousePressEvent(QMouseEvent* event)
       size_t index = name.find("camera");
 
       if (frame_source_ == ROBOT_FRAME)
-        if (it != robot_links.end())
+        // if (it != robot_links.end())
+        // Enable all frames as robot frame
           addItem(QString(name.c_str()));
 
       // add all frames as potential camera frame
