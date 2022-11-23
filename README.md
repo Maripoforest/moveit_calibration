@@ -1,5 +1,5 @@
 # MoveIt Calibration
-
+### Optimized for jackal, please follow the original moveit tutorial to install
 *Tools for robot arm hand-eye calibration.*
 
 | **Warning to Melodic users** |
